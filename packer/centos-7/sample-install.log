@@ -1,0 +1,533 @@
+[07:46 AM] $ packer build centos7-packer.json
+packer-vagrant-centos-7-1503-01-minimal output will be in this color.
+
+==> packer-vagrant-centos-7-1503-01-minimal: Downloading or copying Guest additions
+    packer-vagrant-centos-7-1503-01-minimal: Downloading or copying: file:///Applications/VirtualBox.app/Contents/MacOS/VBoxGuestAdditions.iso
+==> packer-vagrant-centos-7-1503-01-minimal: Downloading or copying ISO
+    packer-vagrant-centos-7-1503-01-minimal: Downloading or copying: https://mirrors.kernel.org/centos/7/isos/x86_64/CentOS-7-x86_64-Minimal-1503-01.iso
+    packer-vagrant-centos-7-1503-01-minimal: Download progress: 0%
+    packer-vagrant-centos-7-1503-01-minimal: Download progress: 1%
+    packer-vagrant-centos-7-1503-01-minimal: Download progress: 3%
+    packer-vagrant-centos-7-1503-01-minimal: Download progress: 5%
+    packer-vagrant-centos-7-1503-01-minimal: Download progress: 6%
+    packer-vagrant-centos-7-1503-01-minimal: Download progress: 7%
+    packer-vagrant-centos-7-1503-01-minimal: Download progress: 9%
+    packer-vagrant-centos-7-1503-01-minimal: Download progress: 10%
+    packer-vagrant-centos-7-1503-01-minimal: Download progress: 11%
+    packer-vagrant-centos-7-1503-01-minimal: Download progress: 14%
+    packer-vagrant-centos-7-1503-01-minimal: Download progress: 15%
+    packer-vagrant-centos-7-1503-01-minimal: Download progress: 17%
+    packer-vagrant-centos-7-1503-01-minimal: Download progress: 19%
+    packer-vagrant-centos-7-1503-01-minimal: Download progress: 20%
+    packer-vagrant-centos-7-1503-01-minimal: Download progress: 20%
+    packer-vagrant-centos-7-1503-01-minimal: Download progress: 20%
+    packer-vagrant-centos-7-1503-01-minimal: Download progress: 21%
+    packer-vagrant-centos-7-1503-01-minimal: Download progress: 22%
+    packer-vagrant-centos-7-1503-01-minimal: Download progress: 24%
+    packer-vagrant-centos-7-1503-01-minimal: Download progress: 25%
+    packer-vagrant-centos-7-1503-01-minimal: Download progress: 27%
+    packer-vagrant-centos-7-1503-01-minimal: Download progress: 29%
+    packer-vagrant-centos-7-1503-01-minimal: Download progress: 31%
+    packer-vagrant-centos-7-1503-01-minimal: Download progress: 33%
+    packer-vagrant-centos-7-1503-01-minimal: Download progress: 36%
+    packer-vagrant-centos-7-1503-01-minimal: Download progress: 39%
+    packer-vagrant-centos-7-1503-01-minimal: Download progress: 42%
+    packer-vagrant-centos-7-1503-01-minimal: Download progress: 45%
+    packer-vagrant-centos-7-1503-01-minimal: Download progress: 48%
+    packer-vagrant-centos-7-1503-01-minimal: Download progress: 50%
+    packer-vagrant-centos-7-1503-01-minimal: Download progress: 50%
+    packer-vagrant-centos-7-1503-01-minimal: Download progress: 51%
+    packer-vagrant-centos-7-1503-01-minimal: Download progress: 52%
+    packer-vagrant-centos-7-1503-01-minimal: Download progress: 52%
+    packer-vagrant-centos-7-1503-01-minimal: Download progress: 54%
+    packer-vagrant-centos-7-1503-01-minimal: Download progress: 55%
+    packer-vagrant-centos-7-1503-01-minimal: Download progress: 56%
+    packer-vagrant-centos-7-1503-01-minimal: Download progress: 57%
+    packer-vagrant-centos-7-1503-01-minimal: Download progress: 59%
+    packer-vagrant-centos-7-1503-01-minimal: Download progress: 62%
+    packer-vagrant-centos-7-1503-01-minimal: Download progress: 65%
+    packer-vagrant-centos-7-1503-01-minimal: Download progress: 68%
+    packer-vagrant-centos-7-1503-01-minimal: Download progress: 72%
+    packer-vagrant-centos-7-1503-01-minimal: Download progress: 74%
+    packer-vagrant-centos-7-1503-01-minimal: Download progress: 77%
+    packer-vagrant-centos-7-1503-01-minimal: Download progress: 79%
+    packer-vagrant-centos-7-1503-01-minimal: Download progress: 81%
+    packer-vagrant-centos-7-1503-01-minimal: Download progress: 84%
+    packer-vagrant-centos-7-1503-01-minimal: Download progress: 87%
+    packer-vagrant-centos-7-1503-01-minimal: Download progress: 90%
+    packer-vagrant-centos-7-1503-01-minimal: Download progress: 93%
+    packer-vagrant-centos-7-1503-01-minimal: Download progress: 96%
+    packer-vagrant-centos-7-1503-01-minimal: Download progress: 98%
+    packer-vagrant-centos-7-1503-01-minimal: Download progress: 99%
+==> packer-vagrant-centos-7-1503-01-minimal: Starting HTTP server on port 8881
+==> packer-vagrant-centos-7-1503-01-minimal: Creating virtual machine...
+==> packer-vagrant-centos-7-1503-01-minimal: Creating hard drive...
+==> packer-vagrant-centos-7-1503-01-minimal: Creating forwarded port mapping for SSH (host port 2528)
+==> packer-vagrant-centos-7-1503-01-minimal: Executing custom VBoxManage commands...
+    packer-vagrant-centos-7-1503-01-minimal: Executing: modifyvm packer-packer-vagrant-centos-7-1503-01-minimal-1437565637 --memory 1024
+==> packer-vagrant-centos-7-1503-01-minimal: Starting the virtual machine...
+==> packer-vagrant-centos-7-1503-01-minimal: Waiting 10s for boot...
+==> packer-vagrant-centos-7-1503-01-minimal: Typing the boot command...
+==> packer-vagrant-centos-7-1503-01-minimal: Waiting for SSH to become available...
+==> packer-vagrant-centos-7-1503-01-minimal: Connected to SSH!
+==> packer-vagrant-centos-7-1503-01-minimal: Uploading VirtualBox version info (5.0.0)
+==> packer-vagrant-centos-7-1503-01-minimal: Uploading VirtualBox guest additions ISO...
+==> packer-vagrant-centos-7-1503-01-minimal: Provisioning with shell script: scripts/sshd.sh
+==> packer-vagrant-centos-7-1503-01-minimal: Provisioning with shell script: scripts/vagrant.sh
+    packer-vagrant-centos-7-1503-01-minimal: useradd: user 'vagrant' already exists
+    packer-vagrant-centos-7-1503-01-minimal: Changing password for user vagrant.
+    packer-vagrant-centos-7-1503-01-minimal: passwd: all authentication tokens updated successfully.
+==> packer-vagrant-centos-7-1503-01-minimal: Provisioning with shell script: scripts/virtualbox.sh
+    packer-vagrant-centos-7-1503-01-minimal: Loaded plugins: fastestmirror
+    packer-vagrant-centos-7-1503-01-minimal: Loading mirror speeds from cached hostfile
+    packer-vagrant-centos-7-1503-01-minimal: * base: mirrors.usinternet.com
+    packer-vagrant-centos-7-1503-01-minimal: * extras: mirror.lug.udel.edu
+    packer-vagrant-centos-7-1503-01-minimal: * updates: mirror.net.cen.ct.gov
+    packer-vagrant-centos-7-1503-01-minimal: Package 1:make-3.82-21.el7.x86_64 already installed and latest version
+    packer-vagrant-centos-7-1503-01-minimal: Resolving Dependencies
+    packer-vagrant-centos-7-1503-01-minimal: --> Running transaction check
+    packer-vagrant-centos-7-1503-01-minimal: ---> Package bzip2.x86_64 0:1.0.6-12.el7 will be installed
+    packer-vagrant-centos-7-1503-01-minimal: ---> Package gcc.x86_64 0:4.8.3-9.el7 will be installed
+    packer-vagrant-centos-7-1503-01-minimal: --> Processing Dependency: cpp = 4.8.3-9.el7 for package: gcc-4.8.3-9.el7.x86_64
+    packer-vagrant-centos-7-1503-01-minimal: --> Processing Dependency: glibc-devel >= 2.2.90-12 for package: gcc-4.8.3-9.el7.x86_64
+    packer-vagrant-centos-7-1503-01-minimal: --> Processing Dependency: libmpfr.so.4()(64bit) for package: gcc-4.8.3-9.el7.x86_64
+    packer-vagrant-centos-7-1503-01-minimal: --> Processing Dependency: libmpc.so.3()(64bit) for package: gcc-4.8.3-9.el7.x86_64
+    packer-vagrant-centos-7-1503-01-minimal: ---> Package kernel-devel.x86_64 0:3.10.0-229.el7 will be installed
+    packer-vagrant-centos-7-1503-01-minimal: ---> Package kernel-headers.x86_64 0:3.10.0-229.el7 will be installed
+    packer-vagrant-centos-7-1503-01-minimal: ---> Package perl.x86_64 4:5.16.3-285.el7 will be installed
+    packer-vagrant-centos-7-1503-01-minimal: --> Processing Dependency: perl-libs = 4:5.16.3-285.el7 for package: 4:perl-5.16.3-285.el7.x86_64
+    packer-vagrant-centos-7-1503-01-minimal: --> Processing Dependency: perl(Socket) >= 1.3 for package: 4:perl-5.16.3-285.el7.x86_64
+    packer-vagrant-centos-7-1503-01-minimal: --> Processing Dependency: perl(Scalar::Util) >= 1.10 for package: 4:perl-5.16.3-285.el7.x86_64
+    packer-vagrant-centos-7-1503-01-minimal: --> Processing Dependency: perl-macros for package: 4:perl-5.16.3-285.el7.x86_64
+    packer-vagrant-centos-7-1503-01-minimal: --> Processing Dependency: perl-libs for package: 4:perl-5.16.3-285.el7.x86_64
+    packer-vagrant-centos-7-1503-01-minimal: --> Processing Dependency: perl(threads::shared) for package: 4:perl-5.16.3-285.el7.x86_64
+    packer-vagrant-centos-7-1503-01-minimal: --> Processing Dependency: perl(threads) for package: 4:perl-5.16.3-285.el7.x86_64
+    packer-vagrant-centos-7-1503-01-minimal: --> Processing Dependency: perl(constant) for package: 4:perl-5.16.3-285.el7.x86_64
+    packer-vagrant-centos-7-1503-01-minimal: --> Processing Dependency: perl(Time::Local) for package: 4:perl-5.16.3-285.el7.x86_64
+    packer-vagrant-centos-7-1503-01-minimal: --> Processing Dependency: perl(Time::HiRes) for package: 4:perl-5.16.3-285.el7.x86_64
+    packer-vagrant-centos-7-1503-01-minimal: --> Processing Dependency: perl(Storable) for package: 4:perl-5.16.3-285.el7.x86_64
+    packer-vagrant-centos-7-1503-01-minimal: --> Processing Dependency: perl(Socket) for package: 4:perl-5.16.3-285.el7.x86_64
+    packer-vagrant-centos-7-1503-01-minimal: --> Processing Dependency: perl(Scalar::Util) for package: 4:perl-5.16.3-285.el7.x86_64
+    packer-vagrant-centos-7-1503-01-minimal: --> Processing Dependency: perl(Pod::Simple::XHTML) for package: 4:perl-5.16.3-285.el7.x86_64
+    packer-vagrant-centos-7-1503-01-minimal: --> Processing Dependency: perl(Pod::Simple::Search) for package: 4:perl-5.16.3-285.el7.x86_64
+    packer-vagrant-centos-7-1503-01-minimal: --> Processing Dependency: perl(Getopt::Long) for package: 4:perl-5.16.3-285.el7.x86_64
+    packer-vagrant-centos-7-1503-01-minimal: --> Processing Dependency: perl(Filter::Util::Call) for package: 4:perl-5.16.3-285.el7.x86_64
+    packer-vagrant-centos-7-1503-01-minimal: --> Processing Dependency: perl(File::Temp) for package: 4:perl-5.16.3-285.el7.x86_64
+    packer-vagrant-centos-7-1503-01-minimal: --> Processing Dependency: perl(File::Spec::Unix) for package: 4:perl-5.16.3-285.el7.x86_64
+    packer-vagrant-centos-7-1503-01-minimal: --> Processing Dependency: perl(File::Spec::Functions) for package: 4:perl-5.16.3-285.el7.x86_64
+    packer-vagrant-centos-7-1503-01-minimal: --> Processing Dependency: perl(File::Spec) for package: 4:perl-5.16.3-285.el7.x86_64
+    packer-vagrant-centos-7-1503-01-minimal: --> Processing Dependency: perl(File::Path) for package: 4:perl-5.16.3-285.el7.x86_64
+    packer-vagrant-centos-7-1503-01-minimal: --> Processing Dependency: perl(Exporter) for package: 4:perl-5.16.3-285.el7.x86_64
+    packer-vagrant-centos-7-1503-01-minimal: --> Processing Dependency: perl(Cwd) for package: 4:perl-5.16.3-285.el7.x86_64
+    packer-vagrant-centos-7-1503-01-minimal: --> Processing Dependency: perl(Carp) for package: 4:perl-5.16.3-285.el7.x86_64
+    packer-vagrant-centos-7-1503-01-minimal: --> Processing Dependency: libperl.so()(64bit) for package: 4:perl-5.16.3-285.el7.x86_64
+    packer-vagrant-centos-7-1503-01-minimal: --> Running transaction check
+    packer-vagrant-centos-7-1503-01-minimal: ---> Package cpp.x86_64 0:4.8.3-9.el7 will be installed
+    packer-vagrant-centos-7-1503-01-minimal: ---> Package glibc-devel.x86_64 0:2.17-78.el7 will be installed
+    packer-vagrant-centos-7-1503-01-minimal: --> Processing Dependency: glibc-headers = 2.17-78.el7 for package: glibc-devel-2.17-78.el7.x86_64
+    packer-vagrant-centos-7-1503-01-minimal: --> Processing Dependency: glibc-headers for package: glibc-devel-2.17-78.el7.x86_64
+    packer-vagrant-centos-7-1503-01-minimal: ---> Package libmpc.x86_64 0:1.0.1-3.el7 will be installed
+    packer-vagrant-centos-7-1503-01-minimal: ---> Package mpfr.x86_64 0:3.1.1-4.el7 will be installed
+    packer-vagrant-centos-7-1503-01-minimal: ---> Package perl-Carp.noarch 0:1.26-244.el7 will be installed
+    packer-vagrant-centos-7-1503-01-minimal: ---> Package perl-Exporter.noarch 0:5.68-3.el7 will be installed
+    packer-vagrant-centos-7-1503-01-minimal: ---> Package perl-File-Path.noarch 0:2.09-2.el7 will be installed
+    packer-vagrant-centos-7-1503-01-minimal: ---> Package perl-File-Temp.noarch 0:0.23.01-3.el7 will be installed
+    packer-vagrant-centos-7-1503-01-minimal: ---> Package perl-Filter.x86_64 0:1.49-3.el7 will be installed
+    packer-vagrant-centos-7-1503-01-minimal: ---> Package perl-Getopt-Long.noarch 0:2.40-2.el7 will be installed
+    packer-vagrant-centos-7-1503-01-minimal: --> Processing Dependency: perl(Pod::Usage) >= 1.14 for package: perl-Getopt-Long-2.40-2.el7.noarch
+    packer-vagrant-centos-7-1503-01-minimal: --> Processing Dependency: perl(Text::ParseWords) for package: perl-Getopt-Long-2.40-2.el7.noarch
+    packer-vagrant-centos-7-1503-01-minimal: ---> Package perl-PathTools.x86_64 0:3.40-5.el7 will be installed
+    packer-vagrant-centos-7-1503-01-minimal: ---> Package perl-Pod-Simple.noarch 1:3.28-4.el7 will be installed
+    packer-vagrant-centos-7-1503-01-minimal: --> Processing Dependency: perl(Pod::Escapes) >= 1.04 for package: 1:perl-Pod-Simple-3.28-4.el7.noarch
+    packer-vagrant-centos-7-1503-01-minimal: --> Processing Dependency: perl(Encode) for package: 1:perl-Pod-Simple-3.28-4.el7.noarch
+    packer-vagrant-centos-7-1503-01-minimal: ---> Package perl-Scalar-List-Utils.x86_64 0:1.27-248.el7 will be installed
+    packer-vagrant-centos-7-1503-01-minimal: ---> Package perl-Socket.x86_64 0:2.010-3.el7 will be installed
+    packer-vagrant-centos-7-1503-01-minimal: ---> Package perl-Storable.x86_64 0:2.45-3.el7 will be installed
+    packer-vagrant-centos-7-1503-01-minimal: ---> Package perl-Time-HiRes.x86_64 4:1.9725-3.el7 will be installed
+    packer-vagrant-centos-7-1503-01-minimal: ---> Package perl-Time-Local.noarch 0:1.2300-2.el7 will be installed
+    packer-vagrant-centos-7-1503-01-minimal: ---> Package perl-constant.noarch 0:1.27-2.el7 will be installed
+    packer-vagrant-centos-7-1503-01-minimal: ---> Package perl-libs.x86_64 4:5.16.3-285.el7 will be installed
+    packer-vagrant-centos-7-1503-01-minimal: ---> Package perl-macros.x86_64 4:5.16.3-285.el7 will be installed
+    packer-vagrant-centos-7-1503-01-minimal: ---> Package perl-threads.x86_64 0:1.87-4.el7 will be installed
+    packer-vagrant-centos-7-1503-01-minimal: ---> Package perl-threads-shared.x86_64 0:1.43-6.el7 will be installed
+    packer-vagrant-centos-7-1503-01-minimal: --> Running transaction check
+    packer-vagrant-centos-7-1503-01-minimal: ---> Package glibc-headers.x86_64 0:2.17-78.el7 will be installed
+    packer-vagrant-centos-7-1503-01-minimal: ---> Package perl-Encode.x86_64 0:2.51-7.el7 will be installed
+    packer-vagrant-centos-7-1503-01-minimal: ---> Package perl-Pod-Escapes.noarch 1:1.04-285.el7 will be installed
+    packer-vagrant-centos-7-1503-01-minimal: ---> Package perl-Pod-Usage.noarch 0:1.63-3.el7 will be installed
+    packer-vagrant-centos-7-1503-01-minimal: --> Processing Dependency: perl(Pod::Text) >= 3.15 for package: perl-Pod-Usage-1.63-3.el7.noarch
+    packer-vagrant-centos-7-1503-01-minimal: --> Processing Dependency: perl-Pod-Perldoc for package: perl-Pod-Usage-1.63-3.el7.noarch
+    packer-vagrant-centos-7-1503-01-minimal: ---> Package perl-Text-ParseWords.noarch 0:3.29-4.el7 will be installed
+    packer-vagrant-centos-7-1503-01-minimal: --> Running transaction check
+    packer-vagrant-centos-7-1503-01-minimal: ---> Package perl-Pod-Perldoc.noarch 0:3.20-4.el7 will be installed
+    packer-vagrant-centos-7-1503-01-minimal: --> Processing Dependency: perl(parent) for package: perl-Pod-Perldoc-3.20-4.el7.noarch
+    packer-vagrant-centos-7-1503-01-minimal: --> Processing Dependency: perl(HTTP::Tiny) for package: perl-Pod-Perldoc-3.20-4.el7.noarch
+    packer-vagrant-centos-7-1503-01-minimal: ---> Package perl-podlators.noarch 0:2.5.1-3.el7 will be installed
+    packer-vagrant-centos-7-1503-01-minimal: --> Running transaction check
+    packer-vagrant-centos-7-1503-01-minimal: ---> Package perl-HTTP-Tiny.noarch 0:0.033-3.el7 will be installed
+    packer-vagrant-centos-7-1503-01-minimal: ---> Package perl-parent.noarch 1:0.225-244.el7 will be installed
+    packer-vagrant-centos-7-1503-01-minimal: --> Finished Dependency Resolution
+    packer-vagrant-centos-7-1503-01-minimal:
+    packer-vagrant-centos-7-1503-01-minimal: Dependencies Resolved
+    packer-vagrant-centos-7-1503-01-minimal:
+    packer-vagrant-centos-7-1503-01-minimal: ================================================================================
+    packer-vagrant-centos-7-1503-01-minimal: Package                     Arch        Version                Repository
+    packer-vagrant-centos-7-1503-01-minimal: Size
+    packer-vagrant-centos-7-1503-01-minimal: ================================================================================
+    packer-vagrant-centos-7-1503-01-minimal: Installing:
+    packer-vagrant-centos-7-1503-01-minimal: bzip2                       x86_64      1.0.6-12.el7           base       52 k
+    packer-vagrant-centos-7-1503-01-minimal: gcc                         x86_64      4.8.3-9.el7            base       16 M
+    packer-vagrant-centos-7-1503-01-minimal: kernel-devel                x86_64      3.10.0-229.el7         base      9.9 M
+    packer-vagrant-centos-7-1503-01-minimal: kernel-headers              x86_64      3.10.0-229.el7         base      2.3 M
+    packer-vagrant-centos-7-1503-01-minimal: perl                        x86_64      4:5.16.3-285.el7       base      8.0 M
+    packer-vagrant-centos-7-1503-01-minimal: Installing for dependencies:
+    packer-vagrant-centos-7-1503-01-minimal: cpp                         x86_64      4.8.3-9.el7            base      5.9 M
+    packer-vagrant-centos-7-1503-01-minimal: glibc-devel                 x86_64      2.17-78.el7            base      1.0 M
+    packer-vagrant-centos-7-1503-01-minimal: glibc-headers               x86_64      2.17-78.el7            base      656 k
+    packer-vagrant-centos-7-1503-01-minimal: libmpc                      x86_64      1.0.1-3.el7            base       51 k
+    packer-vagrant-centos-7-1503-01-minimal: mpfr                        x86_64      3.1.1-4.el7            base      203 k
+    packer-vagrant-centos-7-1503-01-minimal: perl-Carp                   noarch      1.26-244.el7           base       19 k
+    packer-vagrant-centos-7-1503-01-minimal: perl-Encode                 x86_64      2.51-7.el7             base      1.5 M
+    packer-vagrant-centos-7-1503-01-minimal: perl-Exporter               noarch      5.68-3.el7             base       28 k
+    packer-vagrant-centos-7-1503-01-minimal: perl-File-Path              noarch      2.09-2.el7             base       26 k
+    packer-vagrant-centos-7-1503-01-minimal: perl-File-Temp              noarch      0.23.01-3.el7          base       56 k
+    packer-vagrant-centos-7-1503-01-minimal: perl-Filter                 x86_64      1.49-3.el7             base       76 k
+    packer-vagrant-centos-7-1503-01-minimal: perl-Getopt-Long            noarch      2.40-2.el7             base       56 k
+    packer-vagrant-centos-7-1503-01-minimal: perl-HTTP-Tiny              noarch      0.033-3.el7            base       38 k
+    packer-vagrant-centos-7-1503-01-minimal: perl-PathTools              x86_64      3.40-5.el7             base       82 k
+    packer-vagrant-centos-7-1503-01-minimal: perl-Pod-Escapes            noarch      1:1.04-285.el7         base       50 k
+    packer-vagrant-centos-7-1503-01-minimal: perl-Pod-Perldoc            noarch      3.20-4.el7             base       87 k
+    packer-vagrant-centos-7-1503-01-minimal: perl-Pod-Simple             noarch      1:3.28-4.el7           base      216 k
+    packer-vagrant-centos-7-1503-01-minimal: perl-Pod-Usage              noarch      1.63-3.el7             base       27 k
+    packer-vagrant-centos-7-1503-01-minimal: perl-Scalar-List-Utils      x86_64      1.27-248.el7           base       36 k
+    packer-vagrant-centos-7-1503-01-minimal: perl-Socket                 x86_64      2.010-3.el7            base       49 k
+    packer-vagrant-centos-7-1503-01-minimal: perl-Storable               x86_64      2.45-3.el7             base       77 k
+    packer-vagrant-centos-7-1503-01-minimal: perl-Text-ParseWords        noarch      3.29-4.el7             base       14 k
+    packer-vagrant-centos-7-1503-01-minimal: perl-Time-HiRes             x86_64      4:1.9725-3.el7         base       45 k
+    packer-vagrant-centos-7-1503-01-minimal: perl-Time-Local             noarch      1.2300-2.el7           base       24 k
+    packer-vagrant-centos-7-1503-01-minimal: perl-constant               noarch      1.27-2.el7             base       19 k
+    packer-vagrant-centos-7-1503-01-minimal: perl-libs                   x86_64      4:5.16.3-285.el7       base      687 k
+    packer-vagrant-centos-7-1503-01-minimal: perl-macros                 x86_64      4:5.16.3-285.el7       base       42 k
+    packer-vagrant-centos-7-1503-01-minimal: perl-parent                 noarch      1:0.225-244.el7        base       12 k
+    packer-vagrant-centos-7-1503-01-minimal: perl-podlators              noarch      2.5.1-3.el7            base      112 k
+    packer-vagrant-centos-7-1503-01-minimal: perl-threads                x86_64      1.87-4.el7             base       49 k
+    packer-vagrant-centos-7-1503-01-minimal: perl-threads-shared         x86_64      1.43-6.el7             base       39 k
+    packer-vagrant-centos-7-1503-01-minimal:
+    packer-vagrant-centos-7-1503-01-minimal: Transaction Summary
+    packer-vagrant-centos-7-1503-01-minimal: ================================================================================
+    packer-vagrant-centos-7-1503-01-minimal: Install  5 Packages (+31 Dependent packages)
+    packer-vagrant-centos-7-1503-01-minimal:
+    packer-vagrant-centos-7-1503-01-minimal: Total download size: 48 M
+    packer-vagrant-centos-7-1503-01-minimal: Installed size: 127 M
+    packer-vagrant-centos-7-1503-01-minimal: Downloading packages:
+    packer-vagrant-centos-7-1503-01-minimal: Delta RPMs disabled because /usr/bin/applydeltarpm not installed.
+    packer-vagrant-centos-7-1503-01-minimal: Public key for bzip2-1.0.6-12.el7.x86_64.rpm is not installed
+    packer-vagrant-centos-7-1503-01-minimal: warning: /var/cache/yum/x86_64/7/base/packages/bzip2-1.0.6-12.el7.x86_64.rpm: Header V3 RSA/SHA256 Signature, key ID f4a80eb5: NOKEY
+    packer-vagrant-centos-7-1503-01-minimal: --------------------------------------------------------------------------------
+    packer-vagrant-centos-7-1503-01-minimal: Total                                              2.1 MB/s |  48 MB  00:22
+    packer-vagrant-centos-7-1503-01-minimal: Retrieving key from file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+    packer-vagrant-centos-7-1503-01-minimal: Importing GPG key 0xF4A80EB5:
+    packer-vagrant-centos-7-1503-01-minimal: Userid     : "CentOS-7 Key (CentOS 7 Official Signing Key) <security@centos.org>"
+    packer-vagrant-centos-7-1503-01-minimal: Fingerprint: 6341 ab27 53d7 8a78 a7c2 7bb1 24c6 a8a7 f4a8 0eb5
+    packer-vagrant-centos-7-1503-01-minimal: Package    : centos-release-7-1.1503.el7.centos.2.8.x86_64 (@anaconda)
+    packer-vagrant-centos-7-1503-01-minimal: From       : /etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+    packer-vagrant-centos-7-1503-01-minimal: Running transaction check
+    packer-vagrant-centos-7-1503-01-minimal: Running transaction test
+    packer-vagrant-centos-7-1503-01-minimal: Transaction test succeeded
+    packer-vagrant-centos-7-1503-01-minimal: Running transaction
+    packer-vagrant-centos-7-1503-01-minimal: Installing : mpfr-3.1.1-4.el7.x86_64                                     1/36
+    packer-vagrant-centos-7-1503-01-minimal: Installing : libmpc-1.0.1-3.el7.x86_64                                   2/36
+    packer-vagrant-centos-7-1503-01-minimal: Installing : cpp-4.8.3-9.el7.x86_64                                      3/36
+    packer-vagrant-centos-7-1503-01-minimal: Installing : 1:perl-parent-0.225-244.el7.noarch                          4/36
+    packer-vagrant-centos-7-1503-01-minimal: Installing : perl-HTTP-Tiny-0.033-3.el7.noarch                           5/36
+    packer-vagrant-centos-7-1503-01-minimal: Installing : perl-podlators-2.5.1-3.el7.noarch                           6/36
+    packer-vagrant-centos-7-1503-01-minimal: Installing : perl-Pod-Perldoc-3.20-4.el7.noarch                          7/36
+    packer-vagrant-centos-7-1503-01-minimal: Installing : 1:perl-Pod-Escapes-1.04-285.el7.noarch                      8/36
+    packer-vagrant-centos-7-1503-01-minimal: Installing : perl-Encode-2.51-7.el7.x86_64                               9/36
+    packer-vagrant-centos-7-1503-01-minimal: Installing : perl-Text-ParseWords-3.29-4.el7.noarch                     10/36
+    packer-vagrant-centos-7-1503-01-minimal: Installing : perl-Pod-Usage-1.63-3.el7.noarch                           11/36
+    packer-vagrant-centos-7-1503-01-minimal: Installing : perl-Storable-2.45-3.el7.x86_64                            12/36
+    packer-vagrant-centos-7-1503-01-minimal: Installing : perl-Exporter-5.68-3.el7.noarch                            13/36
+    packer-vagrant-centos-7-1503-01-minimal: Installing : perl-constant-1.27-2.el7.noarch                            14/36
+    packer-vagrant-centos-7-1503-01-minimal: Installing : perl-Time-Local-1.2300-2.el7.noarch                        15/36
+    packer-vagrant-centos-7-1503-01-minimal: Installing : perl-Socket-2.010-3.el7.x86_64                             16/36
+    packer-vagrant-centos-7-1503-01-minimal: Installing : perl-Carp-1.26-244.el7.noarch                              17/36
+    packer-vagrant-centos-7-1503-01-minimal: Installing : 4:perl-Time-HiRes-1.9725-3.el7.x86_64                      18/36
+    packer-vagrant-centos-7-1503-01-minimal: Installing : perl-PathTools-3.40-5.el7.x86_64                           19/36
+    packer-vagrant-centos-7-1503-01-minimal: Installing : perl-Scalar-List-Utils-1.27-248.el7.x86_64                 20/36
+    packer-vagrant-centos-7-1503-01-minimal: Installing : 4:perl-macros-5.16.3-285.el7.x86_64                        21/36
+    packer-vagrant-centos-7-1503-01-minimal: Installing : 1:perl-Pod-Simple-3.28-4.el7.noarch                        22/36
+    packer-vagrant-centos-7-1503-01-minimal: Installing : perl-File-Temp-0.23.01-3.el7.noarch                        23/36
+    packer-vagrant-centos-7-1503-01-minimal: Installing : perl-File-Path-2.09-2.el7.noarch                           24/36
+    packer-vagrant-centos-7-1503-01-minimal: Installing : perl-threads-shared-1.43-6.el7.x86_64                      25/36
+    packer-vagrant-centos-7-1503-01-minimal: Installing : perl-threads-1.87-4.el7.x86_64                             26/36
+    packer-vagrant-centos-7-1503-01-minimal: Installing : perl-Filter-1.49-3.el7.x86_64                              27/36
+    packer-vagrant-centos-7-1503-01-minimal: Installing : 4:perl-libs-5.16.3-285.el7.x86_64                          28/36
+    packer-vagrant-centos-7-1503-01-minimal: Installing : perl-Getopt-Long-2.40-2.el7.noarch                         29/36
+    packer-vagrant-centos-7-1503-01-minimal: Installing : 4:perl-5.16.3-285.el7.x86_64                               30/36
+    packer-vagrant-centos-7-1503-01-minimal: Installing : kernel-headers-3.10.0-229.el7.x86_64                       31/36
+    packer-vagrant-centos-7-1503-01-minimal: Installing : glibc-headers-2.17-78.el7.x86_64                           32/36
+    packer-vagrant-centos-7-1503-01-minimal: Installing : glibc-devel-2.17-78.el7.x86_64                             33/36
+    packer-vagrant-centos-7-1503-01-minimal: Installing : gcc-4.8.3-9.el7.x86_64                                     34/36
+    packer-vagrant-centos-7-1503-01-minimal: Installing : kernel-devel-3.10.0-229.el7.x86_64                         35/36
+    packer-vagrant-centos-7-1503-01-minimal: Installing : bzip2-1.0.6-12.el7.x86_64                                  36/36
+    packer-vagrant-centos-7-1503-01-minimal: Verifying  : perl-HTTP-Tiny-0.033-3.el7.noarch                           1/36
+    packer-vagrant-centos-7-1503-01-minimal: Verifying  : perl-threads-shared-1.43-6.el7.x86_64                       2/36
+    packer-vagrant-centos-7-1503-01-minimal: Verifying  : perl-Storable-2.45-3.el7.x86_64                             3/36
+    packer-vagrant-centos-7-1503-01-minimal: Verifying  : mpfr-3.1.1-4.el7.x86_64                                     4/36
+    packer-vagrant-centos-7-1503-01-minimal: Verifying  : perl-Exporter-5.68-3.el7.noarch                             5/36
+    packer-vagrant-centos-7-1503-01-minimal: Verifying  : perl-constant-1.27-2.el7.noarch                             6/36
+    packer-vagrant-centos-7-1503-01-minimal: Verifying  : perl-PathTools-3.40-5.el7.x86_64                            7/36
+    packer-vagrant-centos-7-1503-01-minimal: Verifying  : 1:perl-Pod-Escapes-1.04-285.el7.noarch                      8/36
+    packer-vagrant-centos-7-1503-01-minimal: Verifying  : perl-File-Temp-0.23.01-3.el7.noarch                         9/36
+    packer-vagrant-centos-7-1503-01-minimal: Verifying  : 1:perl-parent-0.225-244.el7.noarch                         10/36
+    packer-vagrant-centos-7-1503-01-minimal: Verifying  : bzip2-1.0.6-12.el7.x86_64                                  11/36
+    packer-vagrant-centos-7-1503-01-minimal: Verifying  : cpp-4.8.3-9.el7.x86_64                                     12/36
+    packer-vagrant-centos-7-1503-01-minimal: Verifying  : 1:perl-Pod-Simple-3.28-4.el7.noarch                        13/36
+    packer-vagrant-centos-7-1503-01-minimal: Verifying  : perl-Time-Local-1.2300-2.el7.noarch                        14/36
+    packer-vagrant-centos-7-1503-01-minimal: Verifying  : perl-Pod-Perldoc-3.20-4.el7.noarch                         15/36
+    packer-vagrant-centos-7-1503-01-minimal: Verifying  : perl-Socket-2.010-3.el7.x86_64                             16/36
+    packer-vagrant-centos-7-1503-01-minimal: Verifying  : kernel-devel-3.10.0-229.el7.x86_64                         17/36
+    packer-vagrant-centos-7-1503-01-minimal: Verifying  : glibc-devel-2.17-78.el7.x86_64                             18/36
+    packer-vagrant-centos-7-1503-01-minimal: Verifying  : perl-Carp-1.26-244.el7.noarch                              19/36
+    packer-vagrant-centos-7-1503-01-minimal: Verifying  : perl-podlators-2.5.1-3.el7.noarch                          20/36
+    packer-vagrant-centos-7-1503-01-minimal: Verifying  : 4:perl-Time-HiRes-1.9725-3.el7.x86_64                      21/36
+    packer-vagrant-centos-7-1503-01-minimal: Verifying  : perl-Scalar-List-Utils-1.27-248.el7.x86_64                 22/36
+    packer-vagrant-centos-7-1503-01-minimal: Verifying  : libmpc-1.0.1-3.el7.x86_64                                  23/36
+    packer-vagrant-centos-7-1503-01-minimal: Verifying  : 4:perl-macros-5.16.3-285.el7.x86_64                        24/36
+    packer-vagrant-centos-7-1503-01-minimal: Verifying  : kernel-headers-3.10.0-229.el7.x86_64                       25/36
+    packer-vagrant-centos-7-1503-01-minimal: Verifying  : perl-Pod-Usage-1.63-3.el7.noarch                           26/36
+    packer-vagrant-centos-7-1503-01-minimal: Verifying  : glibc-headers-2.17-78.el7.x86_64                           27/36
+    packer-vagrant-centos-7-1503-01-minimal: Verifying  : perl-Encode-2.51-7.el7.x86_64                              28/36
+    packer-vagrant-centos-7-1503-01-minimal: Verifying  : gcc-4.8.3-9.el7.x86_64                                     29/36
+    packer-vagrant-centos-7-1503-01-minimal: Verifying  : 4:perl-5.16.3-285.el7.x86_64                               30/36
+    packer-vagrant-centos-7-1503-01-minimal: Verifying  : perl-Getopt-Long-2.40-2.el7.noarch                         31/36
+    packer-vagrant-centos-7-1503-01-minimal: Verifying  : perl-File-Path-2.09-2.el7.noarch                           32/36
+    packer-vagrant-centos-7-1503-01-minimal: Verifying  : perl-threads-1.87-4.el7.x86_64                             33/36
+    packer-vagrant-centos-7-1503-01-minimal: Verifying  : perl-Filter-1.49-3.el7.x86_64                              34/36
+    packer-vagrant-centos-7-1503-01-minimal: Verifying  : perl-Text-ParseWords-3.29-4.el7.noarch                     35/36
+    packer-vagrant-centos-7-1503-01-minimal: Verifying  : 4:perl-libs-5.16.3-285.el7.x86_64                          36/36
+    packer-vagrant-centos-7-1503-01-minimal:
+    packer-vagrant-centos-7-1503-01-minimal: Installed:
+    packer-vagrant-centos-7-1503-01-minimal: bzip2.x86_64 0:1.0.6-12.el7           gcc.x86_64 0:4.8.3-9.el7
+    packer-vagrant-centos-7-1503-01-minimal: kernel-devel.x86_64 0:3.10.0-229.el7  kernel-headers.x86_64 0:3.10.0-229.el7
+    packer-vagrant-centos-7-1503-01-minimal: perl.x86_64 4:5.16.3-285.el7
+    packer-vagrant-centos-7-1503-01-minimal:
+    packer-vagrant-centos-7-1503-01-minimal: Dependency Installed:
+    packer-vagrant-centos-7-1503-01-minimal: cpp.x86_64 0:4.8.3-9.el7
+    packer-vagrant-centos-7-1503-01-minimal: glibc-devel.x86_64 0:2.17-78.el7
+    packer-vagrant-centos-7-1503-01-minimal: glibc-headers.x86_64 0:2.17-78.el7
+    packer-vagrant-centos-7-1503-01-minimal: libmpc.x86_64 0:1.0.1-3.el7
+    packer-vagrant-centos-7-1503-01-minimal: mpfr.x86_64 0:3.1.1-4.el7
+    packer-vagrant-centos-7-1503-01-minimal: perl-Carp.noarch 0:1.26-244.el7
+    packer-vagrant-centos-7-1503-01-minimal: perl-Encode.x86_64 0:2.51-7.el7
+    packer-vagrant-centos-7-1503-01-minimal: perl-Exporter.noarch 0:5.68-3.el7
+    packer-vagrant-centos-7-1503-01-minimal: perl-File-Path.noarch 0:2.09-2.el7
+    packer-vagrant-centos-7-1503-01-minimal: perl-File-Temp.noarch 0:0.23.01-3.el7
+    packer-vagrant-centos-7-1503-01-minimal: perl-Filter.x86_64 0:1.49-3.el7
+    packer-vagrant-centos-7-1503-01-minimal: perl-Getopt-Long.noarch 0:2.40-2.el7
+    packer-vagrant-centos-7-1503-01-minimal: perl-HTTP-Tiny.noarch 0:0.033-3.el7
+    packer-vagrant-centos-7-1503-01-minimal: perl-PathTools.x86_64 0:3.40-5.el7
+    packer-vagrant-centos-7-1503-01-minimal: perl-Pod-Escapes.noarch 1:1.04-285.el7
+    packer-vagrant-centos-7-1503-01-minimal: perl-Pod-Perldoc.noarch 0:3.20-4.el7
+    packer-vagrant-centos-7-1503-01-minimal: perl-Pod-Simple.noarch 1:3.28-4.el7
+    packer-vagrant-centos-7-1503-01-minimal: perl-Pod-Usage.noarch 0:1.63-3.el7
+    packer-vagrant-centos-7-1503-01-minimal: perl-Scalar-List-Utils.x86_64 0:1.27-248.el7
+    packer-vagrant-centos-7-1503-01-minimal: perl-Socket.x86_64 0:2.010-3.el7
+    packer-vagrant-centos-7-1503-01-minimal: perl-Storable.x86_64 0:2.45-3.el7
+    packer-vagrant-centos-7-1503-01-minimal: perl-Text-ParseWords.noarch 0:3.29-4.el7
+    packer-vagrant-centos-7-1503-01-minimal: perl-Time-HiRes.x86_64 4:1.9725-3.el7
+    packer-vagrant-centos-7-1503-01-minimal: perl-Time-Local.noarch 0:1.2300-2.el7
+    packer-vagrant-centos-7-1503-01-minimal: perl-constant.noarch 0:1.27-2.el7
+    packer-vagrant-centos-7-1503-01-minimal: perl-libs.x86_64 4:5.16.3-285.el7
+    packer-vagrant-centos-7-1503-01-minimal: perl-macros.x86_64 4:5.16.3-285.el7
+    packer-vagrant-centos-7-1503-01-minimal: perl-parent.noarch 1:0.225-244.el7
+    packer-vagrant-centos-7-1503-01-minimal: perl-podlators.noarch 0:2.5.1-3.el7
+    packer-vagrant-centos-7-1503-01-minimal: perl-threads.x86_64 0:1.87-4.el7
+    packer-vagrant-centos-7-1503-01-minimal: perl-threads-shared.x86_64 0:1.43-6.el7
+    packer-vagrant-centos-7-1503-01-minimal:
+    packer-vagrant-centos-7-1503-01-minimal: Complete!
+    packer-vagrant-centos-7-1503-01-minimal: Verifying archive integrity... All good.
+    packer-vagrant-centos-7-1503-01-minimal: Uncompressing VirtualBox 5.0.0 Guest Additions for Linux............
+    packer-vagrant-centos-7-1503-01-minimal: VirtualBox Guest Additions installer
+    packer-vagrant-centos-7-1503-01-minimal: Copying additional installer modules ...
+    packer-vagrant-centos-7-1503-01-minimal: Installing additional modules ...
+    packer-vagrant-centos-7-1503-01-minimal: Removing existing VirtualBox non-DKMS kernel modules[  OK  ]
+    packer-vagrant-centos-7-1503-01-minimal: Building the VirtualBox Guest Additions kernel modules
+    packer-vagrant-centos-7-1503-01-minimal: Building the main Guest Additions module[  OK  ]
+    packer-vagrant-centos-7-1503-01-minimal: Building the shared folder support module[  OK  ]
+    packer-vagrant-centos-7-1503-01-minimal: Building the OpenGL support module[  OK  ]
+    packer-vagrant-centos-7-1503-01-minimal: Doing non-kernel setup of the Guest Additions[  OK  ]
+    packer-vagrant-centos-7-1503-01-minimal: Starting the VirtualBox Guest Additions [  OK  ]
+    packer-vagrant-centos-7-1503-01-minimal: Installing the Window System drivers
+    packer-vagrant-centos-7-1503-01-minimal: Could not find the X.Org or XFree86 Window System, skipping.
+==> packer-vagrant-centos-7-1503-01-minimal: Provisioning with shell script: scripts/acpid.sh
+    packer-vagrant-centos-7-1503-01-minimal: Loaded plugins: fastestmirror
+    packer-vagrant-centos-7-1503-01-minimal: Loading mirror speeds from cached hostfile
+    packer-vagrant-centos-7-1503-01-minimal: * base: mirrors.usinternet.com
+    packer-vagrant-centos-7-1503-01-minimal: * extras: mirror.lug.udel.edu
+    packer-vagrant-centos-7-1503-01-minimal: * updates: mirror.net.cen.ct.gov
+    packer-vagrant-centos-7-1503-01-minimal: Resolving Dependencies
+    packer-vagrant-centos-7-1503-01-minimal: --> Running transaction check
+    packer-vagrant-centos-7-1503-01-minimal: ---> Package acpid.x86_64 0:2.0.19-5.el7 will be installed
+    packer-vagrant-centos-7-1503-01-minimal: --> Finished Dependency Resolution
+    packer-vagrant-centos-7-1503-01-minimal:
+    packer-vagrant-centos-7-1503-01-minimal: Dependencies Resolved
+    packer-vagrant-centos-7-1503-01-minimal:
+    packer-vagrant-centos-7-1503-01-minimal: ================================================================================
+    packer-vagrant-centos-7-1503-01-minimal: Package         Arch             Version                  Repository      Size
+    packer-vagrant-centos-7-1503-01-minimal: ================================================================================
+    packer-vagrant-centos-7-1503-01-minimal: Installing:
+    packer-vagrant-centos-7-1503-01-minimal: acpid           x86_64           2.0.19-5.el7             base            66 k
+    packer-vagrant-centos-7-1503-01-minimal:
+    packer-vagrant-centos-7-1503-01-minimal: Transaction Summary
+    packer-vagrant-centos-7-1503-01-minimal: ================================================================================
+    packer-vagrant-centos-7-1503-01-minimal: Install  1 Package
+    packer-vagrant-centos-7-1503-01-minimal:
+    packer-vagrant-centos-7-1503-01-minimal: Total download size: 66 k
+    packer-vagrant-centos-7-1503-01-minimal: Installed size: 142 k
+    packer-vagrant-centos-7-1503-01-minimal: Downloading packages:
+    packer-vagrant-centos-7-1503-01-minimal: Running transaction check
+    packer-vagrant-centos-7-1503-01-minimal: Running transaction test
+    packer-vagrant-centos-7-1503-01-minimal: Transaction test succeeded
+    packer-vagrant-centos-7-1503-01-minimal: Running transaction
+    packer-vagrant-centos-7-1503-01-minimal: Installing : acpid-2.0.19-5.el7.x86_64                                    1/1
+    packer-vagrant-centos-7-1503-01-minimal: Verifying  : acpid-2.0.19-5.el7.x86_64                                    1/1
+    packer-vagrant-centos-7-1503-01-minimal:
+    packer-vagrant-centos-7-1503-01-minimal: Installed:
+    packer-vagrant-centos-7-1503-01-minimal: acpid.x86_64 0:2.0.19-5.el7
+    packer-vagrant-centos-7-1503-01-minimal:
+    packer-vagrant-centos-7-1503-01-minimal: Complete!
+==> packer-vagrant-centos-7-1503-01-minimal: Provisioning with shell script: scripts/scrub.sh
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./yum.log: pass 1/3 (random)...
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./yum.log: pass 2/3 (random)...
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./yum.log: pass 3/3 (random)...
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./yum.log: removing
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./yum.log: renamed to ./0000000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./0000000: renamed to ./000000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./000000: renamed to ./00000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./00000: renamed to ./0000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./0000: renamed to ./000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./000: renamed to ./00
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./00: renamed to ./0
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./yum.log: removed
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./ks-script-SYROH_: pass 1/3 (random)...
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./ks-script-SYROH_: pass 2/3 (random)...
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./ks-script-SYROH_: pass 3/3 (random)...
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./ks-script-SYROH_: removing
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./ks-script-SYROH_: renamed to ./0000000000000000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./0000000000000000: renamed to ./000000000000000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./000000000000000: renamed to ./00000000000000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./00000000000000: renamed to ./0000000000000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./0000000000000: renamed to ./000000000000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./000000000000: renamed to ./00000000000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./00000000000: renamed to ./0000000000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./0000000000: renamed to ./000000000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./000000000: renamed to ./00000000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./00000000: renamed to ./0000000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./0000000: renamed to ./000000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./000000: renamed to ./00000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./00000: renamed to ./0000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./0000: renamed to ./000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./000: renamed to ./00
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./00: renamed to ./0
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./ks-script-SYROH_: removed
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./ks-script-aW09vq: pass 1/3 (random)...
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./ks-script-aW09vq: pass 2/3 (random)...
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./ks-script-aW09vq: pass 3/3 (random)...
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./ks-script-aW09vq: removing
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./ks-script-aW09vq: renamed to ./0000000000000000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./0000000000000000: renamed to ./000000000000000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./000000000000000: renamed to ./00000000000000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./00000000000000: renamed to ./0000000000000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./0000000000000: renamed to ./000000000000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./000000000000: renamed to ./00000000000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./00000000000: renamed to ./0000000000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./0000000000: renamed to ./000000000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./000000000: renamed to ./00000000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./00000000: renamed to ./0000000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./0000000: renamed to ./000000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./000000: renamed to ./00000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./00000: renamed to ./0000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./0000: renamed to ./000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./000: renamed to ./00
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./00: renamed to ./0
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./ks-script-aW09vq: removed
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./vboxguest-Module.symvers: pass 1/3 (random)...
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./vboxguest-Module.symvers: pass 2/3 (random)...
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./vboxguest-Module.symvers: pass 3/3 (random)...
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./vboxguest-Module.symvers: removing
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./vboxguest-Module.symvers: renamed to ./000000000000000000000000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./000000000000000000000000: renamed to ./00000000000000000000000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./00000000000000000000000: renamed to ./0000000000000000000000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./0000000000000000000000: renamed to ./000000000000000000000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./000000000000000000000: renamed to ./00000000000000000000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./00000000000000000000: renamed to ./0000000000000000000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./0000000000000000000: renamed to ./000000000000000000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./000000000000000000: renamed to ./00000000000000000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./00000000000000000: renamed to ./0000000000000000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./0000000000000000: renamed to ./000000000000000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./000000000000000: renamed to ./00000000000000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./00000000000000: renamed to ./0000000000000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./0000000000000: renamed to ./000000000000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./000000000000: renamed to ./00000000000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./00000000000: renamed to ./0000000000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./0000000000: renamed to ./000000000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./000000000: renamed to ./00000000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./00000000: renamed to ./0000000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./0000000: renamed to ./000000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./000000: renamed to ./00000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./00000: renamed to ./0000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./0000: renamed to ./000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./000: renamed to ./00
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./00: renamed to ./0
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./vboxguest-Module.symvers: removed
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./script_7943.sh: pass 1/3 (random)...
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./script_7943.sh: pass 2/3 (random)...
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./script_7943.sh: pass 3/3 (random)...
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./script_7943.sh: removing
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./script_7943.sh: renamed to ./00000000000000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./00000000000000: renamed to ./0000000000000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./0000000000000: renamed to ./000000000000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./000000000000: renamed to ./00000000000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./00000000000: renamed to ./0000000000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./0000000000: renamed to ./000000000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./000000000: renamed to ./00000000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./00000000: renamed to ./0000000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./0000000: renamed to ./000000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./000000: renamed to ./00000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./00000: renamed to ./0000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./0000: renamed to ./000
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./000: renamed to ./00
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./00: renamed to ./0
+    packer-vagrant-centos-7-1503-01-minimal: shred: ./script_7943.sh: removed
+==> packer-vagrant-centos-7-1503-01-minimal: Provisioning with shell script: scripts/spacesaver.sh
+    packer-vagrant-centos-7-1503-01-minimal: Loaded plugins: fastestmirror
+    packer-vagrant-centos-7-1503-01-minimal: Cleaning repos: base extras updates
+    packer-vagrant-centos-7-1503-01-minimal: Cleaning up everything
+    packer-vagrant-centos-7-1503-01-minimal: Cleaning up list of fastest mirrors
+    packer-vagrant-centos-7-1503-01-minimal: running dd if=/dev/zero of=/deleteme to fill up free space for compacting optimization
+    packer-vagrant-centos-7-1503-01-minimal: THIS MIGHT TAKE AWHILE TO COMPLETE
+    packer-vagrant-centos-7-1503-01-minimal: dd: error writing ‘/deleteme’: No space left on device
+    packer-vagrant-centos-7-1503-01-minimal: 39821+0 records in
+    packer-vagrant-centos-7-1503-01-minimal: 39820+0 records out
+    packer-vagrant-centos-7-1503-01-minimal: 41754755072 bytes (42 GB) copied, 71.6753 s, 583 MB/s
+==> packer-vagrant-centos-7-1503-01-minimal: Gracefully halting virtual machine...
+==> packer-vagrant-centos-7-1503-01-minimal: Preparing to export machine...
+    packer-vagrant-centos-7-1503-01-minimal: Deleting forwarded port mapping for SSH (host port 2528)
+==> packer-vagrant-centos-7-1503-01-minimal: Exporting virtual machine...
+    packer-vagrant-centos-7-1503-01-minimal: Executing: export packer-packer-vagrant-centos-7-1503-01-minimal-1437565637 --output output-packer-vagrant-centos-7-1503-01-minimal/packer-packer-vagrant-centos-7-1503-01-minimal-1437565637.ovf
+==> packer-vagrant-centos-7-1503-01-minimal: Unregistering and deleting virtual machine...
+==> packer-vagrant-centos-7-1503-01-minimal: Running post-processor: vagrant
+==> packer-vagrant-centos-7-1503-01-minimal (vagrant): Creating Vagrant box for 'virtualbox' provider
+    packer-vagrant-centos-7-1503-01-minimal (vagrant): Copying from artifact: output-packer-vagrant-centos-7-1503-01-minimal/packer-packer-vagrant-centos-7-1503-01-minimal-1437565637-disk1.vmdk
+    packer-vagrant-centos-7-1503-01-minimal (vagrant): Copying from artifact: output-packer-vagrant-centos-7-1503-01-minimal/packer-packer-vagrant-centos-7-1503-01-minimal-1437565637.ovf
+    packer-vagrant-centos-7-1503-01-minimal (vagrant): Renaming the OVF to box.ovf...
+    packer-vagrant-centos-7-1503-01-minimal (vagrant): Compressing: Vagrantfile
+    packer-vagrant-centos-7-1503-01-minimal (vagrant): Compressing: box.ovf
+    packer-vagrant-centos-7-1503-01-minimal (vagrant): Compressing: metadata.json
+    packer-vagrant-centos-7-1503-01-minimal (vagrant): Compressing: packer-packer-vagrant-centos-7-1503-01-minimal-1437565637-disk1.vmdk
+Build 'packer-vagrant-centos-7-1503-01-minimal' finished.
+
+==> Builds finished. The artifacts of successful builds are:
+--> packer-vagrant-centos-7-1503-01-minimal: 'virtualbox' provider box: packer-vagrant-centos-7-1503-01-minimal.box

@@ -1,1 +1,3 @@
-Requires https://www.packer.io
+Requires:
+- https://www.vagrantup.com
+- https://www.virtualbox.org
