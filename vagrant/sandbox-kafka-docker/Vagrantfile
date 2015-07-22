@@ -1,0 +1,53 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure(2) do |config|
+
+	config.vm.box = "dev"
+    config.vm.box = "../../packer/centos-7/packer-vagrant-centos-7-1503-01-minimal.box"
+
+	# This section will run on all machines...
+	config.vm.provision "shell", inline: <<-SHELL
+
+		# Disable firewall on all machines
+		sudo systemctl stop firewalld
+
+		# create a network map so that machines can talk to each other
+        	sudo echo "192.168.33.10 kafka.example.com kafka" >> /etc/hosts
+	        sudo echo "192.168.33.11 docker.example.com docker" >> /etc/hosts
+  	    SHELL
+
+    # This section only runs on "kafka"
+	config.vm.define "kafka" do |kafka|
+
+		kafka.vm.network "private_network", ip: "192.168.33.10"
+
+		kafka.vm.provision "shell", inline: "sudo sysctl kernel.hostname=kafka.example.com"
+
+		# kafka requires java, so install openjdk
+		kafka.vm.provision "shell", inline: "yum -y install java-1.8.0-openjdk"
+
+		# start the local instance of zookeeper (looks like the 2 lines below are idempotent...)
+		kafka.vm.provision "shell", inline: "/vagrant/kafka_2.10-0.8.2.1/bin/zookeeper-server-start.sh /vagrant/config/zookeeper.properties &"
+		kafka.vm.provision "shell", inline: "/vagrant/kafka_2.10-0.8.2.1/bin/kafka-server-start.sh /vagrant/config/server.properties &"
+        kafka.vm.provision "shell", inline: "/vagrant/kafka_2.10-0.8.2.1/bin/kafka-server-start.sh /vagrant/config/server-1.properties &"
+		kafka.vm.provision "shell", inline: "/vagrant/kafka_2.10-0.8.2.1/bin/kafka-server-start.sh /vagrant/config/server-2.properties &"
+
+	end
+
+	config.vm.define "docker" do |docker|
+
+		docker.vm.network "private_network", ip: "192.168.33.11"
+		docker.vm.provision "shell", inline: "sudo sysctl kernel.hostname=docker.example.com"
+
+		# Instructions: https://docs.docker.com/installation/centos/
+		docker.vm.provision "shell", inline:  "sudo yum -y localinstall --nogpgcheck /vagrant/docker-engine-1.7.1-1.el7.centos.x86_64.rpm"
+		docker.vm.provision "shell", inline:  "sudo service docker start"
+		docker.vm.provision "shell", inline:  "sudo chkconfig docker on"
+		docker.vm.provision "shell", inline:  "sudo usermod -aG docker vagrant"
+		docker.vm.provision "shell", inline:  "sudo docker pull centos"
+		docker.vm.provision "shell", inline:  "sudo docker run -itd --name=hmaster centos"
+
+	end
+
+end
