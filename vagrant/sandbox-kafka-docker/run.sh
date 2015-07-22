@@ -12,3 +12,8 @@ then
 fi
 
 vagrant up
+vagrant status
+
+# test kafka is up...
+kafka_2.10-0.8.2.1/bin/kafka-topics.sh --create --zookeeper 192.168.33.10:2181 --replication-factor 3 --partitions 1 --topic my-replicated-topic
+kafka_2.10-0.8.2.1/bin/kafka-topics.sh --describe --zookeeper 192.168.33.10:2181 --topic my-replicated-topic
