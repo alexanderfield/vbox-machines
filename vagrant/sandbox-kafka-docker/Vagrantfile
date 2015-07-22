@@ -32,8 +32,8 @@ Vagrant.configure(2) do |config|
 
 		# start 3 nodes...
 		kafka.vm.provision "shell", inline: "/vagrant/kafka_2.10-0.8.2.1/bin/kafka-server-start.sh /vagrant/config/server.properties &"
-    kafka.vm.provision "shell", inline: "/vagrant/kafka_2.10-0.8.2.1/bin/kafka-server-start.sh /vagrant/config/server-1.properties &"
-		kafka.vm.provision "shell", inline: "/vagrant/kafka_2.10-0.8.2.1/bin/kafka-server-start.sh /vagrant/config/server-2.properties &"
+    kafka.vm.provision "shell", inline: "/vagrant/kafka_2.10-0.8.2.1/bin/kafka-server-start.sh /vagrant/config/server1.properties &"
+		kafka.vm.provision "shell", inline: "/vagrant/kafka_2.10-0.8.2.1/bin/kafka-server-start.sh /vagrant/config/server2.properties &"
 
 	end
 
