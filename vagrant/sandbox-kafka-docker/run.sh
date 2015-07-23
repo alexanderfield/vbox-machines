@@ -14,6 +14,7 @@ fi
 vagrant up
 vagrant status
 
+vagrant provision kafka
 # test kafka is up...
 echo ""
 echo "Attempting to setup my-replicated-topic...will error if it already exists..."
