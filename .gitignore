@@ -1,2 +1,4 @@
 .DS_Store
 sandbox-kafka-docker_*
+sandbox-hadoop*
+HDP 2.3_1/*
