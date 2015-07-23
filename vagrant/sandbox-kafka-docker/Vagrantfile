@@ -49,7 +49,7 @@ Vagrant.configure(2) do |config|
 		# Instructions: https://docs.docker.com/installation/centos/
 		docker.vm.provision "shell", inline:  "sudo yum -y localinstall --nogpgcheck /vagrant/docker-engine-1.7.1-1.el7.centos.x86_64.rpm"
 		docker.vm.provision "shell", inline:  "sudo service docker start"
-		docker.vm.provision "shell", inline:  "sudo chkconfig docker on"
+		docker.vm.provision "shell", inline:  "systemctl enable docker.service"
 		docker.vm.provision "shell", inline:  "sudo usermod -aG docker vagrant"
 		docker.vm.provision "shell", inline:  "sudo docker pull centos"
 		docker.vm.provision "shell", inline:  "sudo docker run -itd --name=hmaster centos"
