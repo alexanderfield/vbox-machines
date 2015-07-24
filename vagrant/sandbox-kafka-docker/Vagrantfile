@@ -4,8 +4,8 @@
 Vagrant.configure(2) do |config|
 
 	config.vm.box = "dev"
-    config.vm.box = "../../packer/centos-7/packer-vagrant-centos-7-1503-01-minimal.box"
-
+	config.vm.box = ENV['HOME']+"/Projects/resources/packaged-vagrant-boxes/centos-7-1503-01-minimal.box"
+	
 	# This section will run on all machines...
 	config.vm.provision "shell", inline: <<-SHELL
 
