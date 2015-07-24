@@ -49,8 +49,8 @@ kafka_2.10-0.8.2.1/bin/kafka-topics.sh --create --zookeeper 192.168.33.10:2181 -
 
 echo ""
 echo "Describing my-replicated-topic..."
-kafka-scripts/desc.sh
+k-scripts/desc.sh
 
 echo ""
 echo "Listing all topics..."
-kafka-scripts/list.sh
+k-scripts/list.sh
