@@ -1,9 +1,24 @@
 #!/bin/bash
-if [ ! -d "kafka_2.10-0.8.2.1" ];
+
+KAFKA_V=kafka_2.10-0.8.2.1
+KAFKA_FILE_TRUSTED_HASH=446eab1f5329eb03662926aa1cb0845d
+
+if [ ! -d $KAFKA_V ];
 then
-  wget http://mirrors.gigenet.com/apache/kafka/0.8.2.1/kafka_2.10-0.8.2.1.tgz
+  wget http://mirrors.gigenet.com/apache/kafka/0.8.2.1/$KAFKA_V.tgz
+
+  HASH_TO_TEST="$(md5 -r $KAFKA_V.tgz | awk '{ print $1}')"
+  if [ $HASH_TO_TEST != $KAFKA_FILE_TRUSTED_HASH ]
+  then
+    echo "Downloaded docker rpm doesn't hash!!"
+    rm $KAFKA_V.tgz
+    echo "Downloaded file deleted. Exiting!"
+    exit
+  fi
+
   tar -xvf kafka_2.10-0.8.2.1.tgz
   rm kafka_2.10-0.8.2.1.tgz
+
 fi
 
 DOCKER_FILE=docker-engine-1.7.1-1.el7.centos.x86_64.rpm
@@ -19,13 +34,14 @@ then
       rm $DOCKER_FILE
       echo "Downloaded file deleted. Exiting!"
       exit
-    fi
+  fi
 fi
 
-vagrant up
+
+# Bring up both boxes...
+vagrant up --provision
 vagrant status
 
-vagrant provision kafka
 # test kafka is up...
 echo ""
 echo "Attempting to setup my-replicated-topic...will error if it already exists..."
