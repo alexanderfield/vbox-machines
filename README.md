@@ -5,7 +5,9 @@ Toy virtualization project.
 Start by running ./run.sh
 
 This script will:
+
 1) Create a minimal CentOS image using packer.io [1]
+
 2) Spin up two vagrant [2] boxes, one running Kafka, and another running docker.
 
 Note: Vagrant requires VirtualBox [3].
