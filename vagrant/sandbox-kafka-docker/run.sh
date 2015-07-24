@@ -10,7 +10,7 @@ then
   HASH_TO_TEST="$(md5 -r $KAFKA_V.tgz | awk '{ print $1}')"
   if [ $HASH_TO_TEST != $KAFKA_FILE_TRUSTED_HASH ]
   then
-    echo "Downloaded docker rpm doesn't hash!!"
+    echo "Downloaded kafka tarball doesn't hash!!"
     rm $KAFKA_V.tgz
     echo "Downloaded file deleted. Exiting!"
     exit
