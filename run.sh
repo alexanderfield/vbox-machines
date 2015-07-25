@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Check pre-req's...
 if [ 0 -eq $(which virtualbox | wc | awk '{ print $1}') ]
   then
