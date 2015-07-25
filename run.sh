@@ -35,7 +35,6 @@ if [ ! -f $CENTOS_VAGRANT_BOX ];
     cd packer/centos-7
     packer build centos7-packer.json
     mv packer-vagrant-centos-7-1503-01-minimal.box $VAGRANT_DIR/centos-7-1503-01-minimal.box
-    exit
 fi
 
 cd vagrant/sandbox-kafka-docker
