@@ -36,7 +36,7 @@ if [ ! -f $CENTOS_VAGRANT_BOX ];
     echo "Creating base box using packer.io..."
     git clone https://github.com/alexanderfield/packer-builds.git packer
     cd packer/centos-7
-    packer build centos7-packer.json
+    make centos7
     mv packer-vagrant-centos-7-1503-01-minimal.box $VAGRANT_DIR/centos-7-1503-01-minimal.box
 fi
 
