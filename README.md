@@ -2,7 +2,7 @@
 
 Toy virtualization project.
 
-Start by running ./run.sh
+Start by running ./start.sh
 
 This script will:
 
@@ -10,7 +10,7 @@ This script will:
 
 2) Spin up two vagrant [2] boxes, one running Kafka, and another running docker.
 
-Note: Vagrant requires VirtualBox [3].
+Note: Both Packer & Vagrant require VirtualBox [3].
 The script will check for pre-req's and prompt as needed.
 
 [1] https://www.packer.io
