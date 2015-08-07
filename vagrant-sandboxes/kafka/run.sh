@@ -22,18 +22,18 @@ then
 fi
 
 # Bring up kafka...
-vagrant up --provision
-vagrant status
+#vagrant up --provision
+#vagrant status
 
 # test kafka is up...
 echo ""
 echo "Attempting to setup my-replicated-topic...will error if it already exists..."
-kafka_2.10-0.8.2.1/bin/kafka-topics.sh --create --zookeeper 192.168.33.10:2181 --replication-factor 3 --partitions 1 --topic my-replicated-topic
+#kafka_2.10-0.8.2.1/bin/kafka-topics.sh --create --zookeeper 192.168.33.10:2181 --replication-factor 3 --partitions 1 --topic my-replicated-topic
 
 echo ""
 echo "Describing my-replicated-topic..."
-echo "my-replicated-topic" | k-scripts/desc.sh
+#echo "my-replicated-topic" | k-scripts/desc.sh
 
 echo ""
 echo "Listing all topics..."
-k-scripts/list.sh
+#k-scripts/list.sh
