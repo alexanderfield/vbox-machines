@@ -40,5 +40,8 @@ if [ ! -f $CENTOS_VAGRANT_BOX ];
     mv packer-vagrant-centos-7-1503-01-minimal.box $VAGRANT_DIR/centos-7-1503-01-minimal.box
 fi
 
-cd vagrant/sandbox-kafka-docker
-./run.sh
+
+# Kafka, Docker, and Hadoop are now broken out to their own projects
+
+#cd vagrant/sandbox-kafka-docker
+#./run.sh

@@ -5,7 +5,7 @@ Vagrant.configure(2) do |config|
 
 	config.vm.box = "dev"
 	config.vm.box = ENV['HOME']+"/Projects/resources/packaged-vagrant-boxes/centos-7-1503-01-minimal.box"
-	
+
 	# This section will run on all machines...
 	config.vm.provision "shell", inline: <<-SHELL
 
@@ -38,21 +38,6 @@ Vagrant.configure(2) do |config|
 		kafka.vm.provision "shell", inline: "/vagrant/kafka_2.10-0.8.2.1/bin/kafka-server-start.sh /vagrant/config/server.properties &"
     kafka.vm.provision "shell", inline: "/vagrant/kafka_2.10-0.8.2.1/bin/kafka-server-start.sh /vagrant/config/server1.properties &"
 		kafka.vm.provision "shell", inline: "/vagrant/kafka_2.10-0.8.2.1/bin/kafka-server-start.sh /vagrant/config/server2.properties &"
-
-	end
-
-	config.vm.define "docker" do |docker|
-
-		docker.vm.network "private_network", ip: "192.168.33.11"
-		docker.vm.provision "shell", inline: "sudo sysctl kernel.hostname=docker.example.com"
-
-		# Instructions: https://docs.docker.com/installation/centos/
-		docker.vm.provision "shell", inline:  "sudo yum -y localinstall --nogpgcheck /vagrant/docker-engine-1.7.1-1.el7.centos.x86_64.rpm"
-		docker.vm.provision "shell", inline:  "sudo service docker start"
-		docker.vm.provision "shell", inline:  "systemctl enable docker.service"
-		docker.vm.provision "shell", inline:  "sudo usermod -aG docker vagrant"
-		docker.vm.provision "shell", inline:  "sudo docker pull centos"
-		docker.vm.provision "shell", inline:  "sudo docker run -itd --name=hmaster centos"
 
 	end
 
