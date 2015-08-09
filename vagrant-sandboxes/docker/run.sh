@@ -16,9 +16,9 @@ then
   fi
 fi
 
-#vagrant up --provision
-#vagrant status
-echo "all good"
+vagrant up --provision
+vagrant status
+
 # Test docker is up...
 # Docker should be daemonized and remotely available...
 # From scratch, will need image(s) before any container(s) can be run...
